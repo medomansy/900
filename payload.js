@@ -1,7 +1,7 @@
 window.payloadReady = fetch('./payload.bin')
   .then(res => {
     if (!res.ok) {
-      throw new Error("Failed to load payload.bin (" + res.status + ")");
+      throw new Error("فشل تحميل payload.bin (" + res.status + ")");
     }
     return res.arrayBuffer();
   })
@@ -9,14 +9,14 @@ window.payloadReady = fetch('./payload.bin')
     window.pld = new Uint32Array(arr);
     const statusEl = document.getElementById("payload-status");
     if (statusEl) {
-      statusEl.textContent = "Payload ready";
+      statusEl.textContent = "البيلود جاهز";
     }
     return window.pld;
   })
   .catch(err => {
     const statusEl = document.getElementById("payload-status");
     if (statusEl) {
-      statusEl.textContent = "Payload error";
+      statusEl.textContent = "خطأ في تحميل البيلود";
     }
     console.error(err);
   });
