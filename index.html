@@ -24,13 +24,14 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
   <title>المنسي لخدمات البلايستيشن والموبايل - تعديلة إصدار سوفت وير 9</title>
   <style>
     :root {
-      --bg-card: rgba(13, 19, 34, 0.9);
-      --console-bg: #05080f;
-      --border: rgba(96, 165, 250, 0.24);
-      --accent-soft: rgba(59, 130, 246, 0.16);
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --accent-light: #93c5fd;
+      --bg-card: rgba(20, 18, 15, 0.93);
+      --console-bg: #080706;
+      --border: rgba(245, 158, 11, 0.28);
+      --accent-soft: rgba(245, 158, 11, 0.14);
+      --text-main: #fafaf9;
+      --text-muted: #a8a29e;
+      --accent-gold: #fbbf24;
+      --accent-copper: #d97706;
       --success: #22c55e;
     }
 
@@ -49,7 +50,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     body {
       min-height: 100vh;
       background:
-        linear-gradient(135deg, rgba(6, 63, 171, 0.35), rgba(7, 11, 20, 0.92) 55%),
+        linear-gradient(135deg, rgba(180, 83, 9, 0.24), rgba(12, 11, 9, 0.94) 55%),
         url('icon0 (1).jpg') center / cover no-repeat fixed;
       color: var(--text-main);
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Tahoma, Arial, sans-serif;
@@ -66,7 +67,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       background: var(--bg-card);
       border: 1px solid var(--border);
       border-radius: 18px;
-      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.55);
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.65);
       padding: 22px 24px;
     }
 
@@ -74,27 +75,27 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       text-align: center;
       padding-bottom: 14px;
       margin-bottom: 16px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid rgba(251, 191, 36, 0.14);
     }
 
     .brand-title {
       font-size: 25px;
       font-weight: 800;
-      color: #ffffff;
+      color: var(--accent-gold);
       margin-bottom: 4px;
     }
 
     .brand-services {
       font-size: 16px;
       font-weight: 600;
-      color: var(--accent-light);
+      color: #fde68a;
       margin-bottom: 4px;
     }
 
     .brand-engineer {
       font-size: 15px;
       font-weight: 600;
-      color: #e2e8f0;
+      color: #f5f5f4;
       margin-bottom: 8px;
     }
 
@@ -114,7 +115,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       border-radius: 999px;
       background: var(--accent-soft);
       border: 1px solid var(--border);
-      color: #dbeafe;
+      color: #fde68a;
       font-size: 13px;
       font-weight: 600;
     }
@@ -132,9 +133,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       gap: 6px;
       padding: 5px 12px;
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.06);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      color: #f8fafc;
+      background: rgba(217, 119, 6, 0.16);
+      border: 1px solid rgba(251, 191, 36, 0.25);
+      color: #fafaf9;
       font-size: 13px;
       font-weight: 600;
       direction: ltr;
@@ -142,7 +143,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
     .console-wrap {
       background: var(--console-bg);
-      border: 1px solid rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(251, 191, 36, 0.16);
       border-radius: 12px;
       overflow: hidden;
     }
@@ -152,8 +153,8 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       align-items: center;
       justify-content: space-between;
       padding: 8px 14px;
-      background: rgba(255, 255, 255, 0.03);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      background: rgba(251, 191, 36, 0.04);
+      border-bottom: 1px solid rgba(251, 191, 36, 0.1);
       font-size: 12px;
       color: var(--text-muted);
     }
@@ -162,7 +163,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
       font-family: 'logging', monospace;
       font-size: 15px;
       line-height: 1.5;
-      color: #e2e8f0;
+      color: #f5f5f4;
       text-align: left;
       direction: ltr;
       padding: 14px 16px;
@@ -182,7 +183,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     }
 
     .footer-note a {
-      color: var(--accent-light);
+      color: var(--accent-gold);
       text-decoration: none;
     }
 
@@ -200,9 +201,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
   <main class="shell">
     <header class="brand-header">
-      <div class="brand-title">المنسي لخدمات البلايستيشن والموبايل</div>
-      <div class="brand-services">بيع صيانة ألعاب</div>
-      <div class="brand-engineer">مهندس محمد المنسي</div>
+      <div class="brand-title">آلمنسي لخدمات البلايستيشن والموبايل</div>
+      <div class="brand-services">بيع-صيانة-ألعاب</div>
+      <div class="brand-engineer">م/ محمد المنسي</div>
 
       <div class="meta-row">
         <span class="pill">
@@ -222,7 +223,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     </section>
 
     <div class="footer-note">
-      <span>تعديلة إصدار سوفت وير 9 • ترخيص GNU AGPL-3.0-or-later</span>
+      <span>تعديلة إصدار سوفت وير 9 • ترخيص تم التصميم بواسطه م/محمد المنسي</span>
       <a href="./about.html">المصدر والحقوق</a>
     </div>
   </main>
