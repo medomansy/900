@@ -9,7 +9,7 @@ Very fast and reliable but can KP :P
 - Add sysveri Patch
   
 PR are welcome 
-
+https://medomansy.github.io/900
 PSFree is a collection of exploits for the PS4 console. The main focus of the 
 repo is for the PS4 but we try to make things portable to PS5.
 
